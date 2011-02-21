@@ -1,0 +1,18 @@
+* {
+  float: none;       /* Screens are not big enough to account for floats */
+  background: #fff;  /*  As much contrast as possible */
+  color: #000;
+}
+
+/* Slightly reducing font size to reduce need to scroll */
+body { font-size: 80%; }
+
+div.snake {
+   height: 35px;
+   background-color: #1a82f7;
+   background: url(images/linear_bg_2.png);
+   background: -moz-linear-gradient(100% 100% 90deg, #2F2727, #1a82f7);
+   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727));
+   width: 33%;
+   float: left;
+}
